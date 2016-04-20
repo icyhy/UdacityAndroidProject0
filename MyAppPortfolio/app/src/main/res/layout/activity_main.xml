@@ -23,70 +23,27 @@
             android:text="My Nanodegree Apps!" />
         <Button
             android:id="@+id/button1"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:background="@color/colorUdacity"
-            android:layout_gravity="center"
-            android:layout_marginTop="10px"
-            android:layout_marginBottom="10px"
-            android:layout_marginLeft="120px"
-            android:layout_marginRight="120px"
-            style="?android:attr/borderlessButtonStyle"
+            style="@style/GuideButton"
             android:text="@string/first_app_name"/>
         <Button
             android:id="@+id/button2"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:background="@color/colorUdacity"
-            android:layout_gravity="center"
-            android:layout_marginTop="10px"
-            android:layout_marginBottom="10px"
-            android:layout_marginLeft="120px"
-            android:layout_marginRight="120px"
+            style="@style/GuideButton"
             android:text="@string/second_app_name"/>
         <Button
             android:id="@+id/button3"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:background="@color/colorUdacity"
-            android:layout_gravity="center"
-            android:layout_marginTop="10px"
-            android:layout_marginBottom="10px"
-            android:layout_marginLeft="120px"
-            android:layout_marginRight="120px"
+            style="@style/GuideButton"
             android:text="@string/third_app_name"/>
         <Button
             android:id="@+id/button4"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:background="@color/colorUdacity"
-            android:layout_gravity="center"
-            android:layout_marginTop="10px"
-            android:layout_marginBottom="10px"
-            android:layout_marginLeft="120px"
-            android:layout_marginRight="120px"
+            style="@style/GuideButton"
             android:text="@string/forth_app_name"/>
         <Button
             android:id="@+id/button5"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:background="@color/colorUdacity"
-            android:layout_gravity="center"
-            android:layout_marginTop="10px"
-            android:layout_marginBottom="10px"
-            android:layout_marginLeft="120px"
-            android:layout_marginRight="120px"
+            style="@style/GuideButton"
             android:text="@string/fifth_app_name"/>
         <Button
             android:id="@+id/button6"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:background="@color/colorAccent"
-            android:layout_gravity="center"
-            android:layout_marginTop="10px"
-            android:layout_marginBottom="10px"
-            android:layout_marginLeft="120px"
-            android:layout_marginRight="120px"
+            style="@style/GuideButton"
             android:text="@string/sixth_app_name"/>
     </LinearLayout>
 </RelativeLayout>
